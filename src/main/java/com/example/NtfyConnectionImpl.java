@@ -62,5 +62,9 @@ public class NtfyConnectionImpl implements NtfyConnection {
                         .peek(System.out::println)
                         .forEach(messageHandler));
     }
+
+
+
+
 }
 
